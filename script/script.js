@@ -8,7 +8,7 @@ const monthlyBtn = document.querySelector('#monthly');
 //     .catch((error) => console.log('error warning'));
 
 const getDaily = function () {
-    fetch('../data.json')
+    fetch('./data.json')
     .then((response) => response.json())
     .then((data) => {
         const h1s = document.querySelectorAll('h1');
@@ -28,7 +28,7 @@ const getDaily = function () {
 }
 
 const getWeekly = function () {
-    fetch('../data.json')
+    fetch('./data.json')
     .then((response) => response.json())
     .then((data) => {
         const h1s = document.querySelectorAll('h1');
@@ -48,7 +48,7 @@ const getWeekly = function () {
 }
 
 const getMonthly = function () {
-    fetch('../data.json')
+    fetch('./data.json')
     .then((response) => response.json())
     .then((data) => {
         const h1s = document.querySelectorAll('h1');
