@@ -57,9 +57,10 @@ const weeklyClicked = function () {
 
 
 
-fetchUser();
 
 dailyBtn.addEventListener('click', getDaily);
 weeklyBtn.addEventListener('click', getWeekly);
 monthlyBtn.addEventListener('click', getMonthly);
 document.addEventListener('DOMContentLoaded', weeklyClicked);
+
+fetchUser();
