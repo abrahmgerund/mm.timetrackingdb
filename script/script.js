@@ -18,7 +18,7 @@ const getDaily = function () {
 
         const ps = document.querySelectorAll('h1 + p');
         ps.forEach((p, index) => {
-                p.innerText = `Last Week - ${data[index].timeframes.daily.previous}hrs`;
+                p.innerText = `Yesterday - ${data[index].timeframes.daily.previous}hrs`;
         });
 
         // console.log(data[0].timeframes.daily.current);
@@ -58,7 +58,7 @@ const getMonthly = function () {
 
         const ps = document.querySelectorAll('h1 + p');
         ps.forEach((p, index) => {
-                p.innerText = `Last Week - ${data[index].timeframes.monthly.previous}hrs`;
+                p.innerText = `Last Month - ${data[index].timeframes.monthly.previous}hrs`;
         });
 
         // console.log(data[0].timeframes.daily.current);
