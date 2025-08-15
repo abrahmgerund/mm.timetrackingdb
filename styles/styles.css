@@ -154,6 +154,14 @@ input:checked + span {
     align-items: center;
 }
 
+.cards .title a {
+    opacity: 1;
+}
+
+.cards .title a:hover {
+    opacity: 0.5;
+}
+
 .cards .title h1 {
     font-weight: 300;
     font-size: 56px;
